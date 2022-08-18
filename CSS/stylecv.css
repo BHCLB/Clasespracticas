@@ -1,7 +1,117 @@
 /* h1 {background-color: steelblue} */
-.actual{background-color: aquamarine }
-#nombrecv {background-color: steelblue}
-.secciones{background-color:lightblue }
-#initialsection
-.borde {border: solid white;
+* {
+    margin: 0;
+    box-sizing: border-box;}
+    body{
+    background-color: #ddd;
+    }
+
+.actual{background-color: bisque }
+.header{color: #fc0000;
+    margin: 20px auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.inicialsection{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+.divfotoperfil{
+    display: flex;
+}
+
+.fotoperfil{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    /* display: flex; */
+    padding: 20px;
+    margin: 20px;
+
+}
+
+
+/* .secciones{background-color:lightblue } */
+
+.borde{border: 1px solid white;
+    padding: 10px;
+    margin-top: 20px;
+    /* border-radius: 5px; */
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+
+}
+.divdatospersonales{
+    background-color:rgb(248, 237, 227);
+    border-radius: 5px;
+    width: 60%;
+    /* display: flex; */
+    /* margin-bottom: 20px; */
+    min-width:700px;
+    margin:5px;
+}
+
+.datospersonales{color: blue}
+
+
+li{
+    list-style: none;
+}
+.section{
+    margin: 40px;
+}
+
+.antecedentes{
+    display:flex;
+    flex-direction: row;
+    margin:40px;
+    width: 500px;
+    height: 200px;
+
+}
+
+.logo{
+    width: 10px;
+    border: 10px, solid, white;
+    background-color: grey;
+    display: flex;
+    
+}
+.lab{
+    width: 55%;
+    margin-left:auto;
+    padding: 10px;
+    border-left: 5px solid white;
+}
+
+.footer{
+    margin-top: 50px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    align-content: center;
+    justify-items: center;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+  
+}
+.redes{
+    text-align: center;
+    padding: 20px;
+}
+.logored{
+   
+    display: flex;
+    margin: 5px 0;
+    /* align-content: space-between; */
+}
+.iconos{
+    border-radius: 50%;
+    width: 20px;
+}
+.redessociales{
+    display:flex;
+    align-content: space-between;
 }

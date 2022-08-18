@@ -8,15 +8,16 @@
     <title>Portfolio</title>
 </head>
 <body>
-    <header>
+    <header class="header">
         <h1 id="nombrecv">CARLA BONCEK</h1>
     </header>
 
-    <section id="inicialsection">
-       
-        <img id="fotoperfil" class="borde"src="./images/IMG_20220418_150020945cv.jpg" alt="Foto perfil" width="150px">
+    <section class="inicialsection">
+       <div class="divfotoperfil">
+         <img class="fotoperfil borde"src="./images/IMG_20220418_150020945cv.jpg" alt="Foto perfil" width="150px">
+       </div>
     
-        <div id="divdatos personales" class="borde"> 
+        <div class="divdatospersonales borde"> 
             <!-- p*n crea la cant de elementos que indicamos -->
             <p><span class="datospersonales">Fecha de nacimiento:</span> <span>05/07/80</span></p>
             <p><span class="datospersonales">Domicilio:</span> <span>CABA</span></p>
@@ -64,7 +65,7 @@
         </article>
     </section>
 <la parte de estudios podría ser una lista -->
-    <section id="formacionsection">
+    <section id="formacionsection" class="section">
         <header>
             <h2 class="secciones">Estudios Cursados</h2>
         </header>
@@ -76,46 +77,72 @@
         </ul>
     </section>
         
-    <section id="explaboralsection">
+    <section id="explaboralsection" class="section">
         <header>
           <h2 class="secciones">Experiencia Laboral</h2>
         </header>
 
-        <OL>
-            <li>
-                <article class="actual" class="borde">
-                    <header>
-                        <img id="bh" src="./images/BH-570x570.jpg" alt="Logo BH" width="60px">
-                        <h3>Banco Hipotecario - Analista Roles y Perfiles (2010 - a la fecha)</h3>
-                    </header>
-                    <p id="lab1" class="explaboral">Definición de puestos funcionales <br> Definición de funcionalidades por rol para <br> los aplicativos y sistemas de la organización <br> (COBIS y SAP como sistemas principales)</p>
+        <ul>
+            <li class="actual borde antecedentes">
+                                           
+                    <div class="logo">
+                        <img id="bh" src="./images/BH-570x570.jpg" alt="Logo BH">
+                       
+                    </div>
+                    
+                    <div class="lab">
+                     <h3> Banco Hipotecario: Analista Roles y perfiles(2010 - actual)</h3>
+                    
+                     <p id="lab1" class="explaboral">                       
+                        Definición de puestos funcionales <br> Definición de funcionalidades por rol para <br> los aplicativos y sistemas de la organización <br> (COBIS y SAP como sistemas principales)</p>
+                   </div>
+                
 
-                </article>
+                
             </li>
-           <li>
-               <article class="borde">
-                   <header>
-                      <img id="neoris" src="./images/neoris.png" alt="Logo BH" width="60px">
-                      <h3> Neoris Arg.: Business Analyst (2006-2010)</h3>
-                   </header>
-                   <p id="lab2"class="explaboral">
+           <li class="borde antecedentes">               
+                   <div class="logo">
+                      <img id="neoris" src="./images/neoris.png" alt="Logo neoris">
+                    </div>
+                    
+                   <div class="lab">
+                        <h3> Neoris Arg.: Business Analyst (2006-2010)</h3>
+                     <p id="lab2"class="explaboral">
                        Soporte funcional para sedes en latinoamerica en cliente Petrobras. <br>Análiss y resolución de requerimientos <br>
                        Participación en implementación de proyectos. Sist principales: JDE y SAP
-                   </p>
-               </article>   
+                      </p>
+                    </div>                
             </li>
             
-        </OL>        
+        </ul>        
                       
     </section>
 
-    <footer id="footer">
+    <footer class="footer">
           <!-- también se haría una lista con las redes sociales -->
-        <ul>
-            <li> <a href="https://es-la.facebook.com/" target="_blank"><img id="facebook" class="iconos" src="./images/facebook.png" alt="Facebook" width="25px"></a> </li>
-            <li><a href="https://www.instagram.com/" target="_blank"><img id="instagram" class="iconos" src="./images/Instagram2.png" alt="Instagram" width="25px"></a></li>
-            <li><a href="https://twitter.com/?lang=es>" target="_blank"><img id="twitter" class="iconos" src="./images/twitter.png" alt="Twitter" width="25px"></a></li>
-            <li><a href="https://www.linkedin.com/in/carla-luciana-boncek-2689b718" target="_blank"><img id="linkedin" class="iconos" src="./images/link.png" alt="Linkedin" width="25px"></a></li>
+          <h4 class="redes">Mis Redes Sociales</h4>
+        <ul class="redessociales">
+            <li class="logored">
+                <div class="icono">
+                   <a href="https://es-la.facebook.com/" target="_blank"><img id="facebook" class="iconos" src="./images/facebook.png" alt="Facebook"></a> </li>
+                </div>
+            <li class="logored">
+                <div class="icono">
+                  <a href="https://www.instagram.com/" target="_blank"><img id="instagram" class="iconos" src="./images/Instagram2.png" alt="Instagram"></a>
+                </div>  
+            
+            </li>
+            <li class="logored">
+                <div class="icono">
+                  <a href="https://twitter.com/?lang=es>" target="_blank"><img id="twitter" class="iconos" src="./images/twitter.png" alt="Twitter"></a>
+                </div>
+            
+            </li>
+            <li class="logored">
+                <a href="https://www.linkedin.com/in/carla-luciana-boncek-2689b718" target="_blank"><img id="linkedin" class="iconos" src="./images/link.png" alt="Linkedin"></a>
+                               
+                
+            </li>
         </ul>
         
     </footer>
