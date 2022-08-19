@@ -4,6 +4,7 @@
     box-sizing: border-box;}
     body{
     background-color: #ddd;
+    font-family: 'Work Sans', sans-serif;
     }
 
 .actual{background-color: bisque }
@@ -25,8 +26,8 @@
 }
 
 .fotoperfil{
-    width: 200px;
-    height: 200px;
+    width: 230px;
+    height: 230px;
     border-radius: 50%;
     /* display: flex; */
     padding: 20px;
@@ -45,6 +46,7 @@
 
 }
 .divdatospersonales{
+    padding-top: 30px;
     background-color:rgb(248, 237, 227);
     border-radius: 5px;
     width: 60%;
@@ -53,6 +55,7 @@
     min-width:700px;
     margin:5px;
 }
+
 
 .datospersonales{color: blue}
 
@@ -64,6 +67,9 @@ li{
     margin: 40px;
 }
 
+.estudios{
+    margin-bottom: 10px;
+}
 .antecedentes{
     display:flex;
     flex-direction: row;
@@ -74,17 +80,23 @@ li{
 }
 
 .logo{
-    width: 10px;
-    border: 10px, solid, white;
+    width: 200px;
+    padding: 20px;
+    border: 10px, solid, #333;    
     background-color: grey;
     display: flex;
+    align-items: center; 
     
 }
+
+
 .lab{
     width: 55%;
     margin-left:auto;
     padding: 10px;
     border-left: 5px solid white;
+    font-size: 85%;
+    
 }
 
 .footer{
@@ -98,20 +110,26 @@ li{
   
 }
 .redes{
+    /* margin-top: auto; */
+    /* position: relative; */
+    margin-bottom: 10px;
+    font-weight: 400;
     text-align: center;
-    padding: 20px;
+    padding: auto;
+      
 }
-.logored{
-   
+.redessociales{
+    display:flex;
+    padding: 10px;
+}
+
+.logored{   
     display: flex;
-    margin: 5px 0;
-    /* align-content: space-between; */
+    margin: 0 auto;
+    /* align-items: space-between; */
+    
 }
 .iconos{
     border-radius: 50%;
     width: 20px;
-}
-.redessociales{
-    display:flex;
-    align-content: space-between;
 }
