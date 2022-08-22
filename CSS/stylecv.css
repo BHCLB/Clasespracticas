@@ -52,7 +52,7 @@
     width: 60%;
     /* display: flex; */
     /* margin-bottom: 20px; */
-    min-width:700px;
+    min-width:300px;
     margin:5px;
 }
 
@@ -76,6 +76,7 @@ li{
     margin:40px;
     width: 500px;
     height: 200px;
+    min-width: 200px;
 
 }
 
@@ -140,3 +141,33 @@ li{
     width: 20px;
     
 }
+
+@media screen and (max-width: 390px){
+    .divDatosPersonales{
+        display: none;
+
+    }
+    .estudios {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+    }
+    .antecedentes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        
+    }
+    .footer{
+        display: flex;
+        /* flex-direction: column; */
+        align-items: center;
+        justify-items: center;
+    }
+}
+
+
+
+
